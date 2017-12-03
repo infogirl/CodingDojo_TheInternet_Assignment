@@ -10,9 +10,8 @@
   background-color:white;
 }
 
-
 #second_header{
-  text: white;
+  color: white;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 10px;
@@ -40,7 +39,7 @@
 
 #sidebar{
   display: inline-block;
-  width: 300px;
+  width: 250px;
   vertical-align: top;
   margin-top: 20px;
   margin-left:4px;
@@ -60,20 +59,52 @@
   color: white;
   padding-left: 50px;
   padding-right: 40px;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
 }
 
-#ad_background{
-  width: 300px;
+#button_two{
+  background-color: #FFA500;
+  color: white;
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#sidebar hr{
+  width: 200px;
+}
+
+#side_ad{
+  margin-top: 20px;
+  background-image: url("images/ad_background.png");
+  height: 250px;
+  width: 200px;
+}
+
+#side_ad h3{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
 }
 
 #ad_ninja{
   width: 100px;
+  margin-left: 45px;
+  margin-bottom: 15px;
 }
 
+#side_ad button{
+  background-color: #ADD8E6;
+  color: white;
+}
 #maincontent{
   display: inline-block;
-  width: 550px;
-  padding: 20px;
+  width: 600px;
+  padding: 40px;
 }

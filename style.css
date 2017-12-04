@@ -15,11 +15,11 @@
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 10px;
-  background: #4169E1; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#4169E1, white, #4169E1); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#4169E1, white, #4169E1); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#4169E1, white, #4169E1); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#4169E1, white, #4169E1); /* Standard syntax */
+  background: #0099CC; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#0099CC, #C3E4ED, #0099CC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#0099CC, #C3E4ED, #0099CC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#0099CC, #C3E4ED, #0099CC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#0099CC, #C3E4ED, #0099CC); /* Standard syntax */
 }
 
 #header img{
@@ -63,6 +63,7 @@
   padding-bottom: 10px;
   border-radius: 10px;
   margin-bottom: 5px;
+  margin-top: 15px;
 }
 
 #button_two{
@@ -83,7 +84,7 @@
 #side_ad{
   margin-top: 20px;
   background-image: url("images/ad_background.png");
-  height: 250px;
+  height: 280px;
   width: 200px;
 }
 
@@ -100,11 +101,73 @@
 }
 
 #side_ad button{
-  background-color: #ADD8E6;
+  background-color: #00FFFF;
   color: white;
+  padding: 5px 40px 5px;
+  border-radius: 10px;
+  margin-left: 25px;
 }
 #maincontent{
   display: inline-block;
   width: 600px;
   padding: 40px;
+}
+
+#page_header span{
+  color: #39B7CD;
+  vertical-align: top;
+}
+
+#home_image{
+  height: 20px;
+  width: 20px;
+  vertical-align: top;
+}
+
+#header_contactinfo{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#phone_logo{
+  height: 50px;
+  width: 50px;
+}
+
+#maincontent h3{
+  color: #4169E1;
+  margin-top: 10px;
+}
+
+#maincontent span{
+  color:#67E6EC;
+}
+
+#infographic{
+  width: 300px;
+  height: 100px;
+  margin-left: 140px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#buttom_ad{
+  display: inline-block;
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+  width: 600px;
+  margin-top: 25px;
+  padding: 15px;
+}
+
+#bottom_ad_image{
+  width: 125px;
+  height: 125px;
+}
+
+#bottom_ad_content{
+  width: 400px;
+  margin-left: 140px;
+  vertical-align: top;
 }

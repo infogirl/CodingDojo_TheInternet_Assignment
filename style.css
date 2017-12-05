@@ -10,17 +10,8 @@
   background-color:white;
 }
 
-
-#second_header{
-  color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 10px;
-  background: #0099CC; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#0099CC, #C3E4ED, #0099CC); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#0099CC, #C3E4ED, #0099CC); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#0099CC, #C3E4ED, #0099CC); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#0099CC, #C3E4ED, #0099CC); /* Standard syntax */
+#main_header h3{
+  display: inline-block;
 }
 
 #top_header img{
@@ -36,6 +27,21 @@
 #top_header span{
   color: #4169E1;
 }
+
+
+#second_header{
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  background: #0099CC; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#0099CC, #C3E4ED, #0099CC); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#0099CC, #C3E4ED, #0099CC); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#0099CC, #C3E4ED, #0099CC); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#0099CC, #C3E4ED, #0099CC); /* Standard syntax */
+}
+
+
 
 #sidebar{
   display: inline-block;
@@ -81,6 +87,10 @@
   width: 200px;
 }
 
+#sidebar h4{
+  padding-bottom: 15px;
+}
+
 #side_ad{
   margin-top: 20px;
   background-image: url("images/ad_background.png");
@@ -107,10 +117,13 @@
   border-radius: 10px;
   margin-left: 25px;
 }
+
 #maincontent{
   display: inline-block;
   width: 600px;
-  padding: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-top: 10px;
 }
 
 #page_header{
@@ -123,33 +136,37 @@
   vertical-align: top;
 }
 
+#page_header p{
+  font-size: 10px;
+}
+
+#header_DNS{
+  display: inline-block;
+}
+
 #home_image{
   height: 20px;
   width: 20px;
   vertical-align: top;
 }
 
-#main_header h3{
-  display: inline-block;
-}
 
 #header_contactinfo{
   display: inline-block;
-  margin-left: 50%;
+  margin-left: 10px;
   vertical-align: top;
-  margin-top: 10px;
   width: 150px;
 }
 
-
-#phone_logo{
-  height: 50px;
-  width: 50px;
-  vertical-align: top;
+#header_contactinfo h4{
+    color: #39B7CD;
 }
 
-#page_header p{
-  font-size: 10px;
+#phone_logo{
+  height: 40px;
+  width: 40px;
+  margin-left: 350px;
+  margin-bottom: 10px;
 }
 
 #maincontent h3{
@@ -166,6 +183,14 @@
   margin-bottom: 10px;
 }
 
+#middle_content ul {
+  margin-left: 50px;
+}
+
+#middle_content ol {
+  margin-left: 50px;
+}
+
 #infographic{
   width: 300px;
   height: 100px;
@@ -174,7 +199,7 @@
   margin-bottom: 15px;
 }
 
-#buttom_ad{
+#bottom_ad{
   display: inline-block;
   border-style: solid;
   border-width: 5px;
@@ -191,6 +216,7 @@
 
 #bottom_ad_content{
   width: 400px;
-  margin-left: 180px;
   vertical-align: top;
+  display: inline-block;
+  margin-left: 70px;
 }

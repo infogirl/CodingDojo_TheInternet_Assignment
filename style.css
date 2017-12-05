@@ -10,6 +10,7 @@
   background-color:white;
 }
 
+
 #second_header{
   color: white;
   padding-top: 15px;
@@ -22,10 +23,9 @@
   background: linear-gradient(#0099CC, #C3E4ED, #0099CC); /* Standard syntax */
 }
 
-#header img{
+#top_header img{
   height: 100px;
   width: 100px;
-  overflow: visible;
 }
 
 #top_header h1{
@@ -113,6 +113,11 @@
   padding: 40px;
 }
 
+#page_header{
+  width: 970px;
+  padding-bottom: 10px;
+}
+
 #page_header span{
   color: #39B7CD;
   vertical-align: top;
@@ -124,14 +129,27 @@
   vertical-align: top;
 }
 
+#main_header h3{
+  display: inline-block;
+}
+
 #header_contactinfo{
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 50%;
+  vertical-align: top;
+  margin-top: 10px;
+  width: 150px;
 }
+
 
 #phone_logo{
   height: 50px;
   width: 50px;
+  vertical-align: top;
+}
+
+#page_header p{
+  font-size: 10px;
 }
 
 #maincontent h3{
@@ -141,6 +159,11 @@
 
 #maincontent span{
   color:#67E6EC;
+}
+
+#maincontent h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #infographic{
@@ -168,6 +191,6 @@
 
 #bottom_ad_content{
   width: 400px;
-  margin-left: 140px;
+  margin-left: 180px;
   vertical-align: top;
 }
